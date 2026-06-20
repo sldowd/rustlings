@@ -17,14 +17,15 @@ fn replace_me(input: &str) -> String {
 
 fn main() {
     // You can optionally experiment here.
-    let hello: &str = "Здравствуйте";
+    //let hello: &str = "Здравствуйте";
+    let hello: &str = "Hail Satan";
     for b in hello.bytes() {
         println!("{b:b}");
     }
 
-    for b in hello.bytes() {
-        println!("{b:x}");
-    }
+    // for b in hello.bytes() {
+    //     println!("{b:x}");
+    // }
 
     for c in hello.chars() {
         println!("{c}");
